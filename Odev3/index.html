@@ -7,35 +7,68 @@
     <title>Document</title>
     <style>   
         body {
-            background-color: rgb(211, 193, 170);
+            background-color: rgb(226, 219, 210);
+            text-align: center;
         }
+
+        ol {
+            text-align: left;
+            display: inline-block;
+            padding-left: 0;
+        }
+
+        ul {
+            text-align: left;
+            display: inline-block;
+            padding-left: 0;
+        }
+
+        li {
+            margin-left: 0;
+            padding-left: 0;
+        }
+
     </style>
-    <!--  text-align: center;  -->
+    <!--  display: inline-block; : liste elemanlarını birbirine bitişik hale getirir.
+        margin-left ve padding-left özellikleri, liste elemanlarının sola boşluk bırakmamasını sağlar.
+    -->
 </head>
 <body>
 
-     <!--  Navbar - Start  -->
+     <!--  Navbar - Start
+        span : yazinin stili ile oynamamiza olanak saglar.
+        align-center = yazilari ortalar
+        style="background-color: yazinin arkasina boyali ve ici dolu bir cerceve atar
+        color: yazinin rengini belirler
+    -->
      <header>
-        <h4 align="center" id="sayfa-basi">Iletisim Adresleri</h4>
         <nav align="center">
-            <li>
-                <a href="https://www.nefisyemektarifleri.com/saray-sarmasi-6918933/">Web </a> Sayfasi
-            </li>
-            <li>
-                <a href="https://www.youtube.com/user/NefisYemekTarifleri">YouTube</a> Sayfasi
-            </li>
-            <li>
-                <a href="https://www.instagram.com/nefisyemektarifleri/">Instagram </a> Sayfasi
-            </li> 
-            <li>
-                <a href="https://twitter.com/NefisYT//">X-Twitter </a> Sayfasi
-            </li> 
-            <li>
-                <a href="https://www.facebook.com/nefisyemektarifleri/">Facebook </a> Sayfasi
-            </li> 
-            <li>
-                <a href="https://tr.pinterest.com/nefisyemektarifleri/">Pinterest </a> Sayfasi
-            </li> 
+            <ul>
+                <h4 align="center" id="sayfa-basi">
+                    <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                        Iletisim Adresleri
+                    </span>
+                </h4>
+
+                <li>
+                    <a href="https://www.nefisyemektarifleri.com/saray-sarmasi-6918933/">Web </a> Sayfasi
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/NefisYemekTarifleri">YouTube</a> Sayfasi
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/nefisyemektarifleri/">Instagram </a> Sayfasi
+                </li> 
+                <li>
+                    <a href="https://twitter.com/NefisYT//">X-Twitter </a> Sayfasi
+                </li> 
+                <li>
+                    <a href="https://www.facebook.com/nefisyemektarifleri/">Facebook </a> Sayfasi
+                </li> 
+                <li>
+                    <a href="https://tr.pinterest.com/nefisyemektarifleri/">Pinterest </a> Sayfasi
+                </li>
+            </ul> 
         </nav>
         <hr>
     </header>
@@ -44,16 +77,29 @@
 
     <!--  Content - Start  -->
     <section>
-        <h1 aria-setsize="7"><b>Saray Sarmasi Tarifi</b></h1>
+        <h1 aria-setsize="7"><b>
+            <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                Saray Sarmasi Tarifi
+            </span>
+        </b></h1>
         <br>
         <img height="400" src="images/saray-sarmasi.jpg" alt="saray sarmasi">
         <img height="400" src="images/saray-sarmasi2.jpg" alt="saray sarmasi">
         <!--  Article - Start  -->
         <article>
-            <h3><b>Malzemeler</b></h3>
+
            <ol>
+            <h3><b>
+                <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                     Malzemeler
+                </span>              
+            </b></h3>
             <li>
-                <h4>Icindekiler</h4>
+                <h4>
+                    <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                        Icindekiler
+                    </span>        
+                </h4>
                 <ul>
                     <li>2 su bardağı hindistan cevizi</li>
                     <li>1 poşet krem şanti </li>
@@ -61,7 +107,11 @@
                 </ul>
             </li>
             <li>
-                <h4>Kakaolu Muhallebi icin</h4>
+                <h4>
+                    <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                        Kakaolu Muhallebi icin
+                    </span>             
+                </h4>
                 <ul>
                     <li>1 litre süt </li>
                     <li>1 su bardağı toz şeker </li>
@@ -72,7 +122,11 @@
                 </ul>
             </li>
             <li>
-                <h4>Ust Kaplamasi icin icin</h4>
+                <h4>
+                    <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                        Ust Kaplamasi icin icin
+                    </span>
+                </h4>
                 <ul>
                     <li>Toz antep fıstığı </li>
                     <li>Kırmızı meyveler</li>
@@ -83,8 +137,12 @@
         <hr>
         
         <article>
-            <h3>Saray Sarması Tarifi Nasıl Yapılır?</h3>
             <ol>
+                <h3>
+                    <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                        Saray Sarması Tarifi Nasıl Yapılır?
+                    </span>
+                </h3>
                 <li>
                     İlk olarak tatlımızın kakaolu muhallebisini hazırlayalım. <br>
                     Bunun için sütü, şekeri, unu ve kakaoyu uygun bir tencereye <br>
@@ -162,7 +220,11 @@
         <hr>
 
         <article>
-            <h3>Saray Sarması Tarifi Püf Noktaları Nelerdir?</h3>
+            <h3>
+                <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                    Saray Sarması Tarifi Püf Noktaları Nelerdir?
+                </span>
+            </h3>
             <ul>
                 <li>
                     Burada ben streç filmi tepsimin kirlenmemesi ve tatlının daha kolay <br>
@@ -198,7 +260,11 @@
         <hr>
 
         <article>
-            <h3>Tarifinizi Gelistirmek icin Deneyebileceginiz Malzemeler</h3>
+            <h3>
+                <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                    Tarifinizi Gelistirmek icin Deneyebileceginiz Malzemeler
+                </span>              
+            </h3>
 
             <img src="images/extra-malzeme/muz.jpg" alt="saray sarmasi farkli malzemeler muz"
             height="300" border="1"  title="muz">
@@ -212,7 +278,11 @@
         <hr>
 
         <article>
-            <h3>Saray Sarması Tarifi İçin Kullanılan Araç Gereçler</h3>
+            <h3>
+                <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+                    Saray Sarması Tarifi İçin Kullanılan Araç Gereçler
+                </span> 
+            </h3>
             <ul>
                 <li>
                     Tencere
@@ -248,7 +318,11 @@
     <!--  Footer - Start  -->
 
    <div align="center">
-    <h4>Sosyal Meyya Platformlari</h4>
+    <h4>
+        <span style="background-color: rgb(226, 236, 131); color: rgb(255, 0, 0);">
+            Sosyal Meyya Platformlari
+        </span> 
+    </h4>
 
     <a href="https://www.nefisyemektarifleri.com/saray-sarmasi-6918933/">
         <img title="Web" height="50" src="images/web.jpg" alt="nefis yemek tarifleri " border="1">    
